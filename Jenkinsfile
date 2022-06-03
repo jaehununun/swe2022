@@ -21,7 +21,7 @@ stages {
     }
     post {
         always {
-            echo "202206071401"
+            echo "202206071403"
         }
     }
 }
