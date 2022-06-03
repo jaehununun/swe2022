@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        "demoAgent"
+    }
 stages {
         stage('Build') {
             steps {
@@ -19,7 +21,7 @@ stages {
     }
     post {
         always {
-            echo "pipeline job done"
+            echo "202206071400"
         }
     }
 }
